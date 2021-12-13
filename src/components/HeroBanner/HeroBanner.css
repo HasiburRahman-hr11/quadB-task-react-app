@@ -10,7 +10,6 @@
     top: 0;
     background-color: rgba(10, 30, 94, 0.4);
     color: #fff;
-    padding: 70px 0;
 }
 .banner__title{
     font-size: 70px;
@@ -23,7 +22,41 @@
 }
 .banner__subtitle{
     font-size: 22px;
-    font-family: 'Lato', sans-serif;
     font-weight: 400;
     opacity: 0.7;
+}
+
+@media only screen and (max-width:767px){
+    .banner__caption{
+        padding-top: 80px;
+    }
+    .banner__title{
+        max-width: 300px;
+        font-size: 50px;
+        line-height: 50px;
+    }
+    .banner__subtitle{
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width:575px){
+    .banner__title{
+        max-width: 100%;
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .banner__subtitle{
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width:330px){
+    .banner__title{
+        font-size: 25px;
+        line-height: 22px;
+    }
+    .banner__subtitle{
+        font-size: 16px;
+    }
 }

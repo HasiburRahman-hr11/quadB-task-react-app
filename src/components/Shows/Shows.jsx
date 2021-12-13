@@ -6,9 +6,9 @@ import Show from '../Show/Show';
 
 const Shows = ({ shows }) => {
     return (
-        <section className='shows__section'>
+        <section className='shows__section py-5'>
             <Container>
-                <div className="d-flex justify-content-between align-items-center shows__header">
+                <div className="d-flex justify-content-between align-items-center shows__header mb-4">
                     <h2>Shows</h2>
                     <Link to="/shows">View All</Link>
                 </div>

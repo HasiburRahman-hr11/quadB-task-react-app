@@ -2,6 +2,7 @@
     padding-top: 120px;
     padding-bottom: 50px;
     color: #fff;
+    min-height: 100vh;
 }
 .booking__title{
     font-family: 'Oswald', sans-serif;

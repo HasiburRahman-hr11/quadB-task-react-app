@@ -16,13 +16,13 @@ const AllShows = () => {
         return <Loading />
     }
     return (
-        <div className='all__shows'>
+        <div className='shows__section'>
             <PageBanner
                 title="All Available Shows"
                 image="https://images.pexels.com/photos/7234240/pexels-photo-7234240.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
             />
 
-            <section className='shows__section'>
+            <div className='all__shows pt-5 pb-4'>
                 <Container>
                     <div className="shows__wrapper">
                         <Row>
@@ -39,7 +39,7 @@ const AllShows = () => {
                         </Row>
                     </div>
                 </Container>
-            </section>
+            </div>
         </div>
     );
 };

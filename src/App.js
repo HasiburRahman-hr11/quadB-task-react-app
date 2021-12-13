@@ -14,6 +14,7 @@ import Home from './pages/Home/Home';
 import SingleShow from './pages/SingleShow/SingleShow';
 import Header from './components/Header/Header';
 import Booking from './pages/Booking/Booking';
+import Footer from './components/Footer/Footer';
 
 const App = () => {
   return (
@@ -26,6 +27,7 @@ const App = () => {
         <Route path="/shows/:id" element={<SingleShow />} />
         <Route path="/booking/show/:id" element={<Booking />} />
       </Routes>
+      <Footer/>
     </BrowserRouter>
   );
 };
