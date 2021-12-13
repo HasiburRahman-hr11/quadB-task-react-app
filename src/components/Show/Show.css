@@ -1,3 +1,6 @@
+.show__item{
+    margin-bottom: 25px;
+}
 .show__item .card-body{
     background-color: var(--primary-color);
     color: #fff;
@@ -11,23 +14,9 @@
     font-family: 'Oswald', sans-serif;
     font-size: 25px;
 }
-.show__item .show__meta p{
-    margin-bottom: 0;
-}
-.show__item .show__meta p span{
-    margin-left: 5px;
-    color: #0d60ee;
-}
-.show__genres span::after{
-    content: ',';
-}
-.show__genres span:last-child:after{
-    content: '';
-}
-.show__item .show__btn{
-    background-color: #0d8a66;
-    padding: 7px 20px;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 3px;
+
+@media only screen and (max-width:575px){
+    .show__item{
+        margin-bottom: 50px;
+    }
 }

@@ -1,0 +1,24 @@
+.single__show{
+    padding-top: 120px;
+    color: #fff;
+    padding-bottom: 50px;
+}
+
+.single__show_title{
+    font-family: 'Oswald', sans-serif;
+}
+.single__show_description{
+    color: #999;
+}
+
+
+@media only screen and (max-width:991px){
+    .single__show_thumbnail{
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .single__show_thumbnail img{
+        max-width: 500px;
+        object-fit: cover;
+    }
+}

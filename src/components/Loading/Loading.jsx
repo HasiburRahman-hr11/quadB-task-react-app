@@ -9,7 +9,7 @@ const Loading = () => {
             height: '100%',
             left: '0',
             top: '0',
-            backgroundColor: '#f5f5f5',
+            backgroundColor: '#001232',
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'center',

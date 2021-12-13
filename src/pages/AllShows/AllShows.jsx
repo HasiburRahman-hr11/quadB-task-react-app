@@ -2,12 +2,12 @@ import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
-import useShows from '../hooks/useShows';
+import useShows from '../../hooks/useShows';
 
 // Components
-import PageBanner from '../components/PageBanner/PageBanner';
-import Show from '../components/Show/Show';
-import Loading from '../components/Loading/Loading'
+import PageBanner from '../../components/PageBanner/PageBanner';
+import Show from '../../components/Show/Show';
+import Loading from '../../components/Loading/Loading'
 
 const AllShows = () => {
     const { shows, loading } = useShows();

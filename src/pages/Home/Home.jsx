@@ -1,8 +1,8 @@
 import React from 'react';
-import HeroBanner from '../components/HeroBanner/HeroBanner';
-import Loading from '../components/Loading/Loading';
-import Shows from '../components/Shows/Shows';
-import useShows from '../hooks/useShows';
+import HeroBanner from '../../components/HeroBanner/HeroBanner';
+import Loading from '../../components/Loading/Loading';
+import Shows from '../../components/Shows/Shows';
+import useShows from '../../hooks/useShows';
 
 
 const Home = () => {
