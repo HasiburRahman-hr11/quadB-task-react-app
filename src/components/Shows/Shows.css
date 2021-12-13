@@ -1,0 +1,18 @@
+.shows__section{
+    padding-top: 70px;
+}
+.shows__header{
+    padding: 10px 0;
+}
+
+.shows__header h2{
+    color: #fff;
+    font-size: 35px;
+    font-family: 'Oswald', sans-serif;
+}
+.shows__header a{
+    text-decoration: none;
+    color: #31B26B;
+    font-weight: bold;
+    font-size: 20px;
+}

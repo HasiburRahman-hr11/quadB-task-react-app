@@ -1,4 +1,5 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
+import {Link} from 'react-router-dom';
 import { Navbar, Container, Nav, } from 'react-bootstrap';
 import './Header.css';
 
@@ -13,13 +14,13 @@ const Header = () => {
             <div className="header__wrapper">
                 <Navbar expand="lg">
                     <Container>
-                        <Navbar.Brand href="/home">QuadShow</Navbar.Brand>
+                        <Link to="/" className='navbar-brand'>QuadShow</Link>
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />
                         <Navbar.Collapse id="basic-navbar-nav">
                             <Nav className="ms-auto">
-                                <Nav.Link href="/">Home</Nav.Link>
-                                <Nav.Link href="/shows">Shows</Nav.Link>
-                                <Nav.Link href="/">About</Nav.Link>
+                                <Link to="/" className='nav-link' >Home</Link>
+                                <Link to="/shows" className='nav-link'>Shows</Link>
+                                <Link to="/" className='nav-link'>About</Link>
                             </Nav>
                         </Navbar.Collapse>
                     </Container>

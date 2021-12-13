@@ -1,0 +1,26 @@
+.show__item .card-body{
+    background-color: var(--primary-color);
+    color: #fff;
+}
+.show__item .card-body .show__title_wrapper{
+    border-bottom: 1px dotted #013faa;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.show__item .card-title{
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+}
+.show__item .show__meta p{
+    margin-bottom: 0;
+}
+.show__item .show__meta p span{
+    margin-left: 5px;
+    color: #0d60ee;
+}
+.show__genres span::after{
+    content: ',';
+}
+.show__genres span:last-child:after{
+    content: '';
+}

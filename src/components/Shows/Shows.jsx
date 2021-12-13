@@ -1,6 +1,7 @@
 import React from 'react';
+import './Shows.css';
 import { Container, Row, Col } from 'react-bootstrap';
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
 import Show from '../Show/Show';
 
 const Shows = ({ shows }) => {
@@ -14,7 +15,7 @@ const Shows = ({ shows }) => {
 
                 <div className="shows__wrapper">
                     <Row>
-                        {shows.map(item => (
+                        {shows.slice(0 , 6).map(item => (
                             <Col key={item.show.id}
                                 xs={12}
                                 sm={6}

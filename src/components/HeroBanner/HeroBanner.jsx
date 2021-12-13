@@ -6,7 +6,12 @@ import { slides } from './bannerData';
 
 const HeroBanner = () => {
     return (
-        <Carousel fade indicators={false} controls={false} interval={3000}>
+        <Carousel fade 
+        indicators={false} 
+        controls={false} 
+        interval={3000}
+        pause={false}
+        >
             {slides.map(item => (
                 <Carousel.Item key={item.id}>
                     <img

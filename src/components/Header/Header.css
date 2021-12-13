@@ -16,7 +16,7 @@
     color: #fff !important;
 }
 .header.sticky{
-    background-color: #0A1E5E;
+    background-color: var(--primary-color);
     box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
 }
 
