@@ -10,14 +10,20 @@
     top: 0;
     background-color: rgba(10, 30, 94, 0.4);
     color: #fff;
+    padding: 70px 0;
 }
 .banner__title{
-    font-size: 60px;
+    font-size: 70px;
     font-weight: bold;
     font-family: 'Oswald', sans-serif;
+    max-width: 450px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 70px;
 }
 .banner__subtitle{
-    font-size: 25px;
+    font-size: 22px;
     font-family: 'Lato', sans-serif;
-    font-weight: 300;
+    font-weight: 400;
+    opacity: 0.7;
 }

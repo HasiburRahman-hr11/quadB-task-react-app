@@ -12,6 +12,9 @@
     color: #fff;
     border-bottom: 1px solid rgba(10, 30, 94, 0.5);
 }
+.header .navbar-brand{
+    font-family: 'Oswald', sans-serif;
+}
 .header .navbar-brand, .header .nav-link{
     color: #fff !important;
 }

@@ -20,9 +20,9 @@ const HeroBanner = () => {
                         alt={item.title}
                     />
                     <div className='d-flex justify-content-center align-items-center h-100 banner__caption'>
-                        <div>
-                            <h1 className='banner__title'>{item.title}</h1>
-                            <p className='banner__subtitle'>{item.subtitle}</p>
+                        <div className='container'>
+                            <h1 className='banner__title mb-2 text-center'>{item.title}</h1>
+                            <p className='banner__subtitle text-center'>{item.subtitle}</p>
                         </div>
                     </div>
                 </Carousel.Item>

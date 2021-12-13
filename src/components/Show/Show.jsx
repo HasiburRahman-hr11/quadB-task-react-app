@@ -3,6 +3,7 @@ import './Show.css';
 import { Card } from 'react-bootstrap';
 import { GiPopcorn } from 'react-icons/gi';
 import { FcRating } from 'react-icons/fc'
+import { Link } from 'react-router-dom';
 
 const Show = ({ show }) => {
     return (
@@ -29,6 +30,10 @@ const Show = ({ show }) => {
                     <p>
                         Language: <span>{show.language}</span>
                     </p>
+                </div>
+
+                <div className="d-flex align-items-center justify-content-center mt-4">
+                    <Link to={`/shows/${show.id}`} className='show__btn'>View Details</Link>
                 </div>
 
             </Card.Body>

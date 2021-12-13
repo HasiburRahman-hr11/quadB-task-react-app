@@ -24,3 +24,10 @@
 .show__genres span:last-child:after{
     content: '';
 }
+.show__item .show__btn{
+    background-color: #0d8a66;
+    padding: 7px 20px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 3px;
+}

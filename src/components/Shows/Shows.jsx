@@ -15,11 +15,12 @@ const Shows = ({ shows }) => {
 
                 <div className="shows__wrapper">
                     <Row>
-                        {shows.slice(0 , 6).map(item => (
+                        {shows.slice(0, 6).map(item => (
                             <Col key={item.show.id}
                                 xs={12}
                                 sm={6}
-                                md={4}
+                                md={6}
+                                lg={4}
                             >
                                 <Show show={item.show} />
                             </Col>

@@ -35,3 +35,8 @@ ul{
 img, form, input, textarea{
   width: 100%;
 }
+
+/* Commonly used classes */
+.shows__section{
+  padding-top: 70px;
+}
