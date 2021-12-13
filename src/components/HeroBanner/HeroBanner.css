@@ -1,0 +1,23 @@
+
+.banner__img{
+    max-height: 700px;
+    object-fit: cover;
+}
+.banner__caption{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: rgba(10, 30, 94, 0.4);
+    color: #fff;
+}
+.banner__title{
+    font-size: 60px;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+}
+.banner__subtitle{
+    font-size: 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
