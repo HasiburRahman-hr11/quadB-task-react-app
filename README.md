@@ -7,7 +7,7 @@ View [Demo](https://quad-show.netlify.app/).
 In the project directory, you can run:
 
 To install dependencies use -
-### `yarn install`  
+### `npm install`  
 
 Start the live server -
-### `yarn start`
+### `npm start`
