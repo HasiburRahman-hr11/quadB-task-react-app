@@ -1,0 +1,20 @@
+.booking__page{
+    padding-top: 120px;
+    padding-bottom: 50px;
+    color: #fff;
+}
+.booking__title{
+    font-family: 'Oswald', sans-serif;
+}
+.booking__title span{
+    color: #0d60ee;
+}
+
+.booking__form{
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px 20px;
+    border-radius: 5px;
+    background-color: rgba(10, 30, 94, 0.4);
+    border: 1px solid #0A1E5E;
+}

@@ -4,6 +4,10 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 // Bootstrap CSS
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+// React Toastify
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 // Components
 import AllShows from './pages/AllShows/AllShows';
 import Home from './pages/Home/Home';
@@ -14,6 +18,7 @@ import Booking from './pages/Booking/Booking';
 const App = () => {
   return (
     <BrowserRouter>
+      <ToastContainer />
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
